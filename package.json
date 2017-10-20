@@ -1,0 +1,20 @@
+{
+  "name": "woker-pool",
+  "version": "0.1.0",
+  "description": "Workers pool allows to execute a limited number of workers in the same time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/AlexPikalov/worker-pool"
+  },
+  "keywords": [
+    "worker",
+    "pool",
+    "batch"
+  ],
+  "author": "Alex Pikalov",
+  "license": "MIT"
+}
