@@ -7,7 +7,7 @@ function WorkersPool(workers, config = {batchSize: 3}) {
   return Promise.all(runners.map((r) => r.done));
 
   function makeRunner(fn) {
-  	let run;
+    let run;
     const promise = new Promise((res) => run = res);
     const done = promise.then(fn);
     done.then(runNext).catch(() => {});
